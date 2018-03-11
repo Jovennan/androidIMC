@@ -7,19 +7,19 @@
     tools:context="android_imc.jovennan.com.br.androidimc.MainActivity">
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_width="164dp"
-        android:layout_height="45dp"
+        android:id="@+id/editTextPeso"
+        android:layout_width="177dp"
+        android:layout_height="42dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="136dp"
         android:ems="10"
         android:hint="Peso"
-        android:inputType="textPersonName"
+        android:inputType="textPersonName|number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextAltura"
         android:layout_width="175dp"
         android:layout_height="45dp"
         android:layout_marginEnd="8dp"
@@ -27,13 +27,13 @@
         android:layout_marginTop="136dp"
         android:ems="10"
         android:hint="Altura"
-        android:inputType="textPersonName"
+        android:inputType="textPersonName|number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/editText2"
+        app:layout_constraintStart_toEndOf="@+id/editTextPeso"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCalcular"
         android:layout_width="202dp"
         android:layout_height="47dp"
         android:layout_marginBottom="120dp"
